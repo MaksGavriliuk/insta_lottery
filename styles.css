@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.container-image {
+    margin-right: 80px;
+}
+
+.container-text {
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 70px;
+    color: #1344BD;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: #218838;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #D7FD6C;
+}
+
+#winner {
+    margin-top: 60px;
+    font-size: 60px;
+    color: #1344BD;
+    min-height: 70px; /* Фиксированная высота для предотвращения смещения */
+}
+
+.container img {
+    margin-right: 20px;
+    width: 550px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
