@@ -24,27 +24,27 @@ body {
 
 h1 {
     font-size: 70px;
-    color: #1344BD;
+    color: #d11f17;
 }
 
 button {
     padding: 15px 30px;
     font-size: 50px;
     cursor: pointer;
-    background-color: #218838;
+    background-color: #656667;
     color: white;
     border: none;
     border-radius: 5px;
 }
 
 button:hover {
-    background-color: #D7FD6C;
+    background-color: #787b75;
 }
 
 #winner {
     margin-top: 60px;
     font-size: 50px;
-    color: #1344BD;
+    color: #d11f17;
     width: 500px;
     min-height: 70px;
 }
